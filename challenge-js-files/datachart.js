@@ -168,10 +168,15 @@ function BuildChart(labels, values, chartTitle) {
 
             scales: {
                 y: {
+                    title: {
+                        display: true,
+                        text: "Number in thousand"
+
+                    },
                     max: 10,
                     min: 0,
                     ticks: {
-                        stepSize: 1,
+                        stepSize: 2,
                     },
                 },
             },
